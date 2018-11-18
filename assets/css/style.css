@@ -7,6 +7,21 @@ body {
 
 }
 
+#about { 
+    background-color: #ffffff;
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+    color: #777777;
+
+    padding: 50px;
+    padding-left: 830px;
+    margin-top: -8px;
+    position: relative;
+    top: 22px;
+    left:-8px;
+    border: 15px;  
+}
+
+
 #me {
     background-color:#4aaaa5;
     font-size: 35px;
@@ -20,12 +35,48 @@ body {
     position: relative;
     top: -18px;
     left:200px;
-    
-    
+}
+
+#portfolio { 
+    background-color: #ffffff;
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+    color: #777777;
+    padding: 50px;
+    padding-left: 50px;
+    margin-top: -10px;
+    position: absolute;
+    top: -10px;
+    left:907px;
+    border: 15px;
+}
+
+#contact { 
+    background-color: #ffffff;
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+    color: #777777;
+    width: 50px;
+    padding: 50px;
+    padding-right: 225px;
+    padding-left: 80px;
+    margin-top: -10px;
+    position: relative;
+    top: -110px;
+    left: 1012px;
+    border: 15px;
+
+}
+
+#wrapper {
+    background-color: #ffffff;
+    margin-top: -10px;
+    width: 960px;
+    padding: 25px;
+    padding-left: 35px;
+    position: relative;
+    top: 0px;
+    left:200px;
+    border: 20px;
     
     
     
 }
-    
-    
-    
