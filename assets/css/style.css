@@ -4,26 +4,59 @@
 
 body { 
     background-color: tan;
+    position: static;
 
 }
 
 #Header {
     background-color: #ffffff;
     padding: 50px;
-    width: auto;
-
+    width: 1350px;
+    height: 20px;
+    margin-top: -12px;
+    position: static;
+    
 }
+    
+
 
 #about { 
     background-color: #ffffff;
     font-family: "Georgia", Times, 'Times New Roman', serif;
     color: #777777;
     padding: 50px;
-    width: 160px;
+    width: 150px;
     height: 20px;
+    position: relative;
+    top: -250px;
+    right: -780px;
+}
+
+#portfolio { 
+    background-color: #ffffff;
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+    color: #777777;
+    padding: 50px;
+    width: 150px;
+    height: 20px;
+    position: relative;
+    top: -370px;
+    right: -890px;
 
 }
 
+#contact { 
+    background-color: #ffffff;
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+    color: #777777;
+    padding: 50px;
+    width: 150px;
+    height: 20px;
+    position: relative;
+    top: -490px;
+    right: -1035px;
+
+}
 
 #me {
     background-color:#4aaaa5;
@@ -36,68 +69,38 @@ body {
     padding-left: 35px;
     margin-top: -10px;
     position: relative;
-    top: -18px;
+    top: -111px;
     left:200px;
 }
 
-#portfolio { 
-    background-color: #ffffff;
-    font-family: "Georgia", Times, 'Times New Roman', serif;
-    color: #777777;
-    padding: 50px;
-    padding-left: 50px;
-    margin-top: -10px;
-    position: absolute;
-    top: -10px;
-    left:907px;
-    border: 15px;
-}
-
-#contact { 
-    background-color: #ffffff;
-    font-family: "Georgia", Times, 'Times New Roman', serif;
-    color: #777777;
-    width: 50px;
-    padding: 50px;
-    padding-right: 225px;
-    padding-left: 80px;
-    margin-top: -10px;
-    position: relative;
-    top: -110px;
-    left: 1012px;
-    border: 15px;
-
-}
 
 #wrapper {
     background-color: #ffffff;
-    margin-top: -10px;
+    margin-top: -20px;
     width: 960px;
-    padding: 25px;
+    padding: 50px;
     padding-left: 35px;
+    padding-right: 35px;
     position: relative;
-    top: 0px;
     left:200px;
-    border: 20px;
-    
+    top: -350px; 
 }
 
 #aboutme {
     color: #4aaaa5;
-    font-size: 35px;
+    font-size: 28px;
     font-weight: bold;
-    
+    width: 160px; 
 }
 
 #hr {
     border-color:  #cccccc;
-    border-width: 2px;
-    
+    border-width: 2px;  
 }
 
+
 .image {
-    float:left;
-    
+    float:left;  
 }
 
 .outer p {
@@ -107,19 +110,21 @@ body {
 }
 
 .outer p:first-child {
-    clear: none
+    clear: none;
 }
-
-#footer {
-    clear: both;
+.footer {
     background-color:#666666;
-    padding: 5px;
-    width: 100%;
+    padding: 40px;
+    height: 20px;
+    width: 1350px;
+    bottom: -25px;
+    border-top-style: solid;
+    border-top-width: 10px; 
+    border-color: #4aaaa5;
+    position: relative; 
 }
 
-#copyright {
-    text-align: center;
-    padding: auto;
-    
-
+.footer p {
+     text-align: center;     
 }
+
