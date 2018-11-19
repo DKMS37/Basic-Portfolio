@@ -234,8 +234,17 @@ float:left;
     border-color: #dddddd;
 }
 
-.picture3{
- 
+#picture3{
+    float: left;
+    clear: both;
+    padding: 10px;
+    padding-left: 0px;
+    margin-top: 10px;
+    border: 20px;
+    border-color: #dddddd;
+}
+
+#picture4 {
     padding: 10px;
     padding-left: 0px;
     margin-top: 10px;
@@ -245,6 +254,7 @@ float:left;
 
 
 #drawings{
+
     background-color:  #4aaaa5;
     font-family: "Georgia", Times, 'Times New Roman', serif;
     color: #777777;
