@@ -40,7 +40,7 @@ body {
     width: 150px;
     height: 20px;
     position: relative;
-    top: -370px;
+    top: -369px;
     right: -890px;
 
 }
@@ -53,10 +53,20 @@ body {
     width: 150px;
     height: 20px;
     position: relative;
-    top: -490px;
+    top: -486px;
     right: -1035px;
 
 }
+
+a:active {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+  }
+  
+  a:hover {
+    font-style: italic;
+  }
 
 #me {
     background-color:#4aaaa5;
@@ -152,4 +162,50 @@ body {
 .footer p {
      text-align: center;     
 }
+
+
+#textarea-wrapper {
+    padding: 10px;
+    background-color: #f4f4f4;
+    width: 890px;
+    
+  }
+  
+  #textarea-wrapper textarea {
+    min-height:190px;
+    max-height:240px;
+    width: 870px;
+  }
+  
+  #textarea-wrapper textarea.vertical { 
+    resize: vertical;
+  }
+
+
+  #input-wrapper {
+    padding: 10px;
+    background-color: #f4f4f4;
+    width: 890px;
+  }
+  
+  #input-wrapper input {
+    min-height:20px;
+    max-height:60px;
+    width: 870px;
+  }
+  
+  #input-wrapper textarea.horizontal { 
+    resize: horizontal;
+  }
+
+
+button {
+    color: red;
+  }
+  
+  button:hover {
+    color: green;
+    font-weight: bold;
+  }
+
 

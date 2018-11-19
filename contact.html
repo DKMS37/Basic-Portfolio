@@ -18,14 +18,15 @@
        
       
            <div>
-               <h3 id="about">About</h3>
+              <a href="#"><h3 id="about">About</h3></a>
            </div>
-           <div>
-               <h3 id="portfolio">Portfolio</h3>
+           <div class="h">
+              <a href="#"><h3 id="portfolio">Portfolio</h3></a>
            </div>
-           <div>
-               <h3 id="contact">Contact</h3>
+           <div class="h">
+              <a href="#"> <h3 id="contact">Contact</h3>,</a>
            </div>
+          
        
             
         <div id="wrapper">
@@ -39,19 +40,28 @@
                    <div>
                       <a id="fullname">Name</a>
                    </div>
-                    <input type="text" id="fullname" name="Name" placeholder="John Smith">
-                    
-                  <div>
+                   
+                   <div id="input-wrapper">
+                      <label for="resize-horizontal"></label>
+                      <input type="text" id="fullname" name="Name" placeholder="John Smith"></input>
+                    </div>
+                  
+                    <div>
                      <a id= "email">Email</a>
-                  </div>
-                   <input type="text" id="email" name="Email" placeholder="Example@gmail.com">
-                    
+                   </div>
+                  
+                   <div id="input-wrapper">
+                      <label for="resize-horizontal"></label>
+                      <input type="text" id="email" name="Email" placeholder="Example@gmail.com"></input>
+                   </div>
+                   
                   <div>
                      <a id="subject">Message</a>
                   </div>
                     
-                  <div>
-                     <textarea id="message" name="Message" placeholder="Write something.."></textarea>
+                  <div id="textarea-wrapper">
+                     <label for="resize-vertical"></label>
+                     <textarea name="resize-vertical" id="resize-vertical" class="vertical">write something..</textarea>
                   </div>
                    
               </body>
