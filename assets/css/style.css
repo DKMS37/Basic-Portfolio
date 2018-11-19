@@ -217,7 +217,7 @@ button {
 .picture1 {
 
 float:left;  
-    padding: 20px;
+    padding: 10px;
     padding-left: 0px;
     margin-top: 10px;
     border: 20px;
@@ -227,7 +227,7 @@ float:left;
 .picture2 {
     clear: both;
     float:left;  
-    padding: 20px;
+    padding: 10px;
     padding-left: 0px;
     margin-top: 10px;
     border: 20px;
@@ -236,9 +236,94 @@ float:left;
 
 .picture3{
  
-    padding: 20px;
+    padding: 10px;
     padding-left: 0px;
     margin-top: 10px;
     border: 20px;
     border-color: #dddddd;
+}
+
+
+#drawings{
+    background-color:  #4aaaa5;
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+    color: #777777;
+    padding: 0px;
+    width: 395px;
+    height: 26px;
+    position: relative;
+    bottom: -700px;
+    left:0px;
+    float: left;
+}
+
+
+
+
+#paintings{
+    float: right;
+    background-color:  #4aaaa5;
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+    color: #777777;
+    padding: 0px;
+    width: 250px;
+    position: relative;
+    bottom: -1060px;
+    left: -388px;
+    
+
+}
+
+#photography {
+    float: left;
+    clear: both;
+    background-color:  #4aaaa5;
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+    color: #777777;
+    padding: 1px;
+    width: 240px;
+    position: relative;
+    bottom: -1000px;
+    left:0px;
+}
+
+#photoshop {
+    clear:both;
+    background-color: #4aaaa5;
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+    color: #777777;
+    padding: 0px;
+    width: 321px;
+    height: 25px;
+    position: relative;
+    bottom: -1450px;
+    left:0px;
+}
+
+#artexhibits {
+    float:right;
+    clear: both;
+    background-color: #4aaaa5;
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+    color: #777777;
+    padding: 10px;
+    width: 403px;
+    position: relative;
+    top: 500px;
+    left:-82px;
+    
+}
+
+#specialevents {
+    float: right;
+    background-color:  #4aaaa5;
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+    color: #777777;
+    padding: 4px;
+    width: 450px;
+    height: 30px;
+    position: relative;
+    bottom: -1250px;
+    right: -295px;
+
 }
