@@ -2,11 +2,17 @@
     box-sizing: border-box;
 }
 
-body { 
-    background-color: tan;
-    position: static;
 
-}
+body { 
+    background-color: wheat;
+    position: relative;
+
+}   
+
+
+
+
+
 
 #Header {
     background-color: #ffffff;
@@ -208,4 +214,31 @@ button {
     font-weight: bold;
   }
 
+.picture1 {
 
+float:left;  
+    padding: 20px;
+    padding-left: 0px;
+    margin-top: 10px;
+    border: 20px;
+    border-color: #dddddd;
+}
+
+.picture2 {
+    clear: both;
+    float:left;  
+    padding: 20px;
+    padding-left: 0px;
+    margin-top: 10px;
+    border: 20px;
+    border-color: #dddddd;
+}
+
+.picture3{
+ 
+    padding: 20px;
+    padding-left: 0px;
+    margin-top: 10px;
+    border: 20px;
+    border-color: #dddddd;
+}
