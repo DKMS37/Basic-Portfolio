@@ -154,22 +154,7 @@ a:active {
 
 }
 
-.footer {
-    background-color:#666666;
-    padding: 65px;
-    padding-top: 10px;
-    height: 20px;
-    width: 1350px;
-    bottom: -25px;
-    border-top-style: solid;
-    border-top-width: 8px; 
-    border-color: #4aaaa5;
-    position: sticky; 
-}
 
-.footer p {
-     text-align: center;     
-}
 
 
 #textarea-wrapper {
@@ -217,119 +202,108 @@ button {
   }
 
 .picture1 {
-
-    float:left;  
+    margin-top: 40px;
+    float: left; 
     padding: 10px;
     padding-left: 0px;
-    margin-top: -200px;
     border: 20px;
     border-color: #dddddd;
     position: relative;
+    
 }
 
 .picture2 {
-    clear: both;
-    float:left;  
+    margin-top: -10px;
+    float: left;
     padding: 10px;
     padding-left: 0px;
-    margin-top: 10px;
     border: 20px;
     border-color: #dddddd;
     position: relative;
+     
 }
 
-.picture3{
+#picture3{
     clear: both;
     padding: 10px;
     padding-left: 0px;
-    margin-top: 10px;
     border: 20px;
     border-color: #dddddd;
     position: relative;
+    
 }
 
 
 #drawings{
-
+    width: 320px;
     background-color:  #4aaaa5;
     font-family: "Georgia", Times, 'Times New Roman', serif;
+    font-display: center;
     color: #777777;
-    padding: 0px;
-    width: 395px;
-    height: 26px;
     position: relative;
-    bottom: -700px;
-    left:0px;
-    float: left;
+    top: -106px;
+    
 }
-
-
 
 
 #paintings{
-    float: right;
+    width: 320px;
     background-color:  #4aaaa5;
     font-family: "Georgia", Times, 'Times New Roman', serif;
     color: #777777;
-    padding: 0px;
-    width: 250px;
     position: relative;
-    bottom: -1060px;
-    left: -388px;
+    top: -105px;
     
-
 }
 
 #photography {
-    float: left;
-    clear: both;
+    width: 320px;
     background-color:  #4aaaa5;
     font-family: "Georgia", Times, 'Times New Roman', serif;
     color: #777777;
-    padding: 1px;
-    width: 240px;
     position: relative;
-    bottom: -1000px;
-    left:0px;
+    top: -130px
+       
 }
 
 #photoshop {
-    clear:both;
-    background-color: #4aaaa5;
-    font-family: "Georgia", Times, 'Times New Roman', serif;
-    color: #777777;
-    padding: 0px;
-    width: 321px;
-    height: 25px;
-    position: relative;
-    bottom: -1450px;
-    left:0px;
-}
-
-#artexhibits {
-    float:right;
-    clear: both;
-    background-color: #4aaaa5;
-    font-family: "Georgia", Times, 'Times New Roman', serif;
-    color: #777777;
-    padding: 10px;
-    width: 403px;
-    position: relative;
-    top: 500px;
-    left:-82px;
-    
-}
-
-#specialevents {
-    float: right;
+    width: 308px;  
     background-color:  #4aaaa5;
     font-family: "Georgia", Times, 'Times New Roman', serif;
     color: #777777;
-    padding: 4px;
-    width: 450px;
-    height: 30px;
     position: relative;
-    bottom: -1250px;
-    right: -295px;
+    top: -120px;
+    z-index: 2;
+     
+}
 
+#artexhibits { 
+    width: 320px;
+    background-color:  #4aaaa5;
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+    color: #777777;
+    position: relative;
+    top: -150px;
+    
+}
+
+
+.footer {
+    float: left;
+    background-color:#666666;
+    padding: 65px;
+    padding-top: 10px;
+    height: 20px;
+    width: 1350px;
+    bottom: -25px;
+    border-top-style: solid;
+    border-top-width: 8px; 
+    border-color: #4aaaa5;
+    position: sticky; 
+    z-index: 4
+}
+
+.footer p {
+     text-align: center;  
+     z-index: 4
 }
