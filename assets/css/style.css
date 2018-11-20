@@ -2,19 +2,17 @@
     box-sizing: border-box;
 }
 
-.background {
-    background-image: url("assets/images/circuit.png");
-}
 
 body { 
     background-color: wheat;
     position: relative;
-
-
 }   
 
 
+.background {
+    background-image: url("assets/css/bgimage.jpg")
 
+}
 
 
 
